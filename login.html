@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-image: url("https://www.icegif.com/wp-content/uploads/icegif-5860.gif");
+            background-repeat: no-repeat;
+            background-position: top right;
+            background-size: 26%;
+        }
+        .container{
+            background-color: aqua;
+            width: 30%;
+            padding: 3%;
+        }
+        .form-field input{
+            padding: 10px;
+            width: 80%;
+        }
+        button{
+            padding: 10px;
+            background-color: red;
+            width: 30%;
+            color:white;
+            border: none;
+            font-size: 1.3rem;
+        }
+        @media (max-width:576px){
+            body{
+                background-image: none;
+            }
+            .container{
+                width: 90%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <form class="container" action="./biography.html">
+    <p class="form-field">
+        <input type="text" required
+        placeholder="enter your name"/>
+    </p>
+    <P class="form-field">
+        <input type="password" required
+        placeholder="enter your password"/>
+    </p>
+     <button>login</button>
+     </form>
+     </body>
+</html>
